@@ -7,10 +7,9 @@ This is an end to end LLM project based on Gimini Pro and Langchain. We are buil
 
 ## Project Highlights
 
-- Use a real CSV file of FAQs that Codebasics company is using right now. 
-- Their human staff will use this file to assist their course learners.
+- Use a real CSV file of FAQs (Covid-19). 
 - We will build an LLM based question and answer system that can reduce the workload of their human staff.
-- Students should be able to use this system to ask questions directly and get answers within seconds
+- people should be able to use this system to ask questions directly and get answers within seconds
 
 ## You will learn following,
   - Langchain + Gimini pro : LLM based Q&A
@@ -22,7 +21,9 @@ This is an end to end LLM project based on Gimini Pro and Langchain. We are buil
 ## Usage
 
 1. Run the Streamlit app by executing:
-```bash
+
+
+2.
 streamlit run main.py
 
 ```
