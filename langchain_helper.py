@@ -52,10 +52,4 @@ def get_qa_chain():
 if __name__=="__main__":
     create_vector_db()
     chain = get_qa_chain()
-<<<<<<< HEAD
     print(chain.invoke("what is nobel corona virus"))
- 
-=======
-    print(chain.invoke("what is corona virus"))
- 
->>>>>>> 82a606fd2e46f86929db6237a763f3b9dc34074c
