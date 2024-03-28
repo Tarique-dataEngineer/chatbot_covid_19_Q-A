@@ -1,5 +1,5 @@
 
-# Codebasics Q&A: Question and Answer System Based on Google Palm LLM and Langchain for E-learning company  
+# Covid-19 Q&A: Question and Answer System Based on Google Gimini Pro LLM and Langchain for Covid 19 
 
 This is an end to end LLM project based on Gimini Pro and Langchain. We are building a Q&A system for covid 19. This system will provide a streamlit based user interface for people where they can ask questions and get answers about covid 19. 
 
