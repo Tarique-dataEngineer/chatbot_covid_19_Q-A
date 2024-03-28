@@ -5,8 +5,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
-
-llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=os.environ["GOOGLE_API_KEY"], temperature=0)
+GOOGLE_API_KEY="AIzaSyBdRm6uYCOXILtiKQm6Vosv0CnZ439xraE"
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY, temperature=0)
 
 instructor_embeddings = HuggingFaceEmbeddings()
 vector_db_file_path = "faiss_index"
