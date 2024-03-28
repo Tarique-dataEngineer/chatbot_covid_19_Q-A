@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
 GOOGLE_API_KEY="AIzaSyBdRm6uYCOXILtiKQm6Vosv0CnZ439xraE"
-llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=your api, temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY, temperature=0)
 
 instructor_embeddings = HuggingFaceEmbeddings()
 vector_db_file_path = "faiss_index"
