@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
-llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=os.environ["GOOGLE_API_KEY"], temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=your api, temperature=0)
 
 instructor_embeddings = HuggingFaceEmbeddings()
 vector_db_file_path = "faiss_index"
@@ -51,5 +51,10 @@ def get_qa_chain():
 if __name__=="__main__":
     create_vector_db()
     chain = get_qa_chain()
+<<<<<<< HEAD
     print(chain.invoke("what is nobel corona virus"))
  
+=======
+    print(chain.invoke("what is corona virus"))
+ 
+>>>>>>> 82a606fd2e46f86929db6237a763f3b9dc34074c
