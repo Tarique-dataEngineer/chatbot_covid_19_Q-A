@@ -51,5 +51,5 @@ def get_qa_chain():
 if __name__=="__main__":
     create_vector_db()
     chain = get_qa_chain()
-    print(chain.invoke("what is corona virus"))
+    print(chain.invoke("what is nobel corona virus"))
  
